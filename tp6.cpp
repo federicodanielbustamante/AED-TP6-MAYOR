@@ -1,5 +1,5 @@
 /*
-	TP 4 - Calcular perimetro de un rectangulo.
+	TP 6 - Calcular el mayor.
 	Federico Daniel Bustamante
 	24/05/2015
 */
@@ -37,6 +37,6 @@ int elMayor(int primero, int segundo, int tercero){
 	} else if (segundo > primero and segundo > tercero) {
 		numeroMayor = segundo;
 	}
-	
+
 	return numeroMayor;
 }
