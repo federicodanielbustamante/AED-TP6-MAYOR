@@ -8,7 +8,6 @@ int elMayor(int, int, int);
 int primero;
 int segundo;
 int tercero;
-int numeroMayor;
 
 using namespace std;
 
@@ -29,14 +28,12 @@ int main() {
 }
 
 int elMayor(int primero, int segundo, int tercero){
-
-	numeroMayor = tercero;
 	
 	if (primero > segundo and primero > tercero) {
-		numeroMayor = primero;
+		return primero;
 	} else if (segundo > primero and segundo > tercero) {
-		numeroMayor = segundo;
+		return segundo;
 	}
 
-	return numeroMayor;
+	return tercero;
 }
