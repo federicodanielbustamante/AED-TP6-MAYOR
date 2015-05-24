@@ -1,0 +1,8 @@
+INICIO
+Solicitar el primer numero
+Solicitar el segundo numero
+Solicitar el tercer numero
+Si el primero es mayor que el segundo y el primero es mayor que el tercero devuelvo el primero
+Si el segundo es mayor que el primero y el segundo es mayor que el tercero devuelvo el segundo
+Si no cumple ninguno de los dos pasos anteriores devuelvo el tercero
+FIN
